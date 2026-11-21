@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Explorer — MP3 & MP4</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div>
+        <h1>Product Explorer</h1>
+        <p class="subtitle">Get whatever you want.</p>
+      </div>
+      <div class="view-controls">
+        <button id="allProductsBtn" class="btn btn-active" type="button">All Products</button>
+        <button id="savedProductsBtn" class="btn" type="button">
+          Saved (<span id="savedCount">0</span>)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar">
+      <input
+        type="text"
+        id="searchInput"
+        class="search-input"
+        placeholder="Search products by title or brand..."
+        aria-label="Search products"
+      />
+      <div id="categoryFilters" class="category-filters" aria-label="Category filters"></div>
+    </section>
+
+    <section id="statusMessage" class="status-box hidden" aria-live="polite"></section>
+
+    <section id="productsGrid" class="products-grid"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
