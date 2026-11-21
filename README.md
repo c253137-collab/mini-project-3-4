@@ -11,8 +11,8 @@
 | **Course** | CSE-2340 — Software Development I |
 | **Assessment** | Mini Project 3–4 (MP3–MP4) — CO3, CO4 |
 | **Department** | Dept. of Computer Science & Engineering, IIUC |
-| **Student Name** | `[Your Name]` |
-| **Student ID** | `[Your ID]` |
+| **Student Name** | `[Abdullah Al Noman]` |
+| **Student ID** | `[C253137]` |
 
 ---
 
